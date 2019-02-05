@@ -18,6 +18,6 @@ end
 
 def printer(speakers)
   batch_badge_creator(speakers).each{|x|puts x}
-  #puts assign_rooms(speakers)
+  assign_rooms(speakers).each{|x|puts x}
 end
 
